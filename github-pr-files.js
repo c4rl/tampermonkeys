@@ -13,7 +13,7 @@
     'use strict';
     Mousetrap.bind('f', function () {
         var href = window.location.href;
-        var re = /https:\/\/github\.com\/(\w+)\/(\w+)\/pull\/(\d+)/;
+        var re = /https:\/\/github\.com\/(.+)\/(.+)\/pull\/(\d+)/;
         var matches = href.match(re);
         var co = matches[1];
         var repo = matches[2];
