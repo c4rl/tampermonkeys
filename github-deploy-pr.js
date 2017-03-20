@@ -14,7 +14,7 @@
 (function() {
   'use strict';
   $ = jQuery;
-  Mousetrap.bind('d p r', function() {
+  Mousetrap.bind('d d d', function() {
     var pull_request_body = $('#pull_request_body');
     var pull_request_title = $('#pull_request_title');
     var commits = $('#commits_bucket .commit-message code a:first-child');
